@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="/web/welcome.jsp"method="post">
+        用户名：<input type="text"name="username"><br>
+        密  码：<input type="password"name="password"value=""><br>
+
+<!--单选框-->
+        <input type="radio"name="球类"value="basketball">basketball
+        <input type="radio"name="球类"value="football">football<br/>
+<!--复选框-->
+        <input type="checkbox"name="车类"value="电动车">电动车
+        <input type="checkbox"name="车类"value="摩托车">摩托车<br/>
+
+<!--下拉框-->
+        车类型：
+        <select name="cars">
+            <option value="">---</option>
+            <option value="奥迪">奥迪</option>
+            <option value="大众">大众</option>
+            <option value="长城">长城</option><br/>
+        </select>
+<br><br>
+
+<!--文本框-->
+        <textarea rows="10"cols="200"color>
+             this is my textarea
+        </textarea>
+        <br><br><br>
+<!-- 邮箱-->
+        <fieldset>
+            <legend>email登陆</legend>
+        name:<input type="text"name="姓名"value="your name" size="30"><br><br>
+        Email:<input type="text"name="email"value="your email"size="30"><br>
+        password:<input type="password"name="password"value="输入密码"size="30"><br>
+        <input type="submit"value="登陆"size="30">
+        </fieldset>
+    </form>
+</body>
+</html>

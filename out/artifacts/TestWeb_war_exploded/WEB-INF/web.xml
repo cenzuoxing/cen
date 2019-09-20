@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+<!--    TestServlet类的配置-->
+    <servlet>
+        <servlet-name>TestServlet</servlet-name>
+        <servlet-class>com.cen.web.servlet.TestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TestServlet</servlet-name>
+        <url-pattern>/TestServlet</url-pattern>
+    </servlet-mapping>
+
+<!--    TestServlet2类的配置-->
+    <servlet>
+        <servlet-name>TestServlet2</servlet-name>
+        <servlet-class>com.cen.web.servlet.TestServlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TestServlet2</servlet-name>
+        <url-pattern>/TestServlet2</url-pattern>
+    </servlet-mapping>
+<!--    TestServlet3类的配置-->
+<!--    <servlet>-->
+<!--        <servlet-name>TestServlet3</servlet-name>-->
+<!--        <servlet-class>com.cen.web.servlet.TestServlet3</servlet-class>-->
+<!--        <init-param>-->
+<!--            <param-name>encoding</param-name>-->
+<!--            <param-value>UTF-8</param-value>-->
+<!--        </init-param>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>TestServlet3</servlet-name>-->
+<!--        <url-pattern>/TestServlet3</url-pattern>-->
+<!--    </servlet-mapping>-->
+</web-app>
